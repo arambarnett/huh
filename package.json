@@ -6,7 +6,7 @@
   "license": "MIT",
   "homepage": "https://monkeygun.com",
   "repository": "github:arambarnett/huh",
-  "bin": { "huh": "lite/cli.mjs", "huh-mcp": "mcp/server.mjs" },
+  "bin": { "huh-engine": "lite/cli.mjs", "huh": "lite/cli.mjs", "huh-mcp": "mcp/server.mjs" },
   "exports": { ".": "./lite/huh.mjs" },
   "files": ["lite", "mcp", "tools", "prompts", "SKILL.md"],
   "scripts": { "build": "node scripts/build.mjs", "test": "node lite/test.mjs && node mcp/test.mjs" },

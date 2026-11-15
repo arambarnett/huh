@@ -1,0 +1,14 @@
+{
+  "name": "huh-engine",
+  "version": "1.1.0",
+  "description": "Huh? The Monkeygun Conflict Resolution Engine. Five tools. Resolves up to 95% of conflicts.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://monkeygun.com",
+  "repository": "github:arambarnett/huh",
+  "bin": { "huh": "lite/cli.mjs", "huh-mcp": "mcp/server.mjs" },
+  "exports": { ".": "./lite/huh.mjs" },
+  "files": ["lite", "mcp", "tools", "prompts", "SKILL.md"],
+  "scripts": { "build": "node scripts/build.mjs", "test": "node lite/test.mjs && node mcp/test.mjs" },
+  "engines": { "node": ">=18" }
+}
